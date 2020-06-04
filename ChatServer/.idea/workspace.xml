@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8b340a7-fc30-4c6d-860e-d381a96dccce" name="Default Changelist" comment="" />
+    <list default="true" id="b8b340a7-fc30-4c6d-860e-d381a96dccce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/test/java/com/saad/chatclient/JavaFXThreadingRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/test/java/com/saad/chatclient/alert/AlertsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/test/java/com/saad/chatclient/controller/GadgetProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/test/java/com/saad/chatclient/controller/LoginControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/test/java/com/saad/chatclient/controller/MainControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/test/java/com/saad/chatclient/sockets/ChatSocketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/test/java/com/saad/chatclient/sockets/LoginSocketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/src/main/java/com/saad/chatclient/controller/GadgetProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/src/main/java/com/saad/chatclient/controller/GadgetProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/src/main/java/com/saad/chatclient/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/src/main/java/com/saad/chatclient/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/src/main/java/com/saad/chatclient/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/src/main/java/com/saad/chatclient/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/src/main/java/com/saad/chatclient/ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/src/main/java/com/saad/chatclient/ref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/target/classes/com/saad/chatclient/controller/GadgetProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/target/classes/com/saad/chatclient/controller/GadgetProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/target/classes/com/saad/chatclient/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/target/classes/com/saad/chatclient/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/target/classes/com/saad/chatclient/ref.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/target/classes/com/saad/chatclient/ref.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,13 +32,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/saad/chatserver/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="238">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/saad/chatserver/listeners/LoginListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/saad/chatserver/Launcher.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="115" />
@@ -28,6 +65,7 @@
     <option name="width" value="1315" />
     <option name="height" value="740" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -74,6 +112,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ChatServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -82,7 +128,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591207613831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591236216509" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,7 +186,7 @@
       <window_info id="Project Explorer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Job Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" />
@@ -150,7 +196,7 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -182,10 +228,34 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/saad/chatserver/service/CsvFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/saad/chatserver/listeners/LoginListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/users.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/saad/chatserver/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="238">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

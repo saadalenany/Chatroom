@@ -162,7 +162,6 @@ public class MainController implements Initializable {
                 }
             } catch (IOException e) {
                 System.out.println(e.getLocalizedMessage());
-                e.printStackTrace();
             }
         }
     }

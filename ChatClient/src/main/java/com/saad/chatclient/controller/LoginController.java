@@ -30,6 +30,7 @@ public class LoginController implements Initializable {
     public void onLoginAction() throws IOException {
         if (username.getText().isEmpty() || password.getText().isEmpty()) {
             Alerts.showErrorAlert("Error", "Wrong Cred.", "Empty username or password!");
+            return;
         }
         System.out.println("Searching for username & password....");
         LoginSocket.os.writeByte(SEARCH_USERNAME_PASSWORD);
@@ -55,6 +56,7 @@ public class LoginController implements Initializable {
     public void onSignUpAction() throws IOException {
         if (username.getText().isEmpty() || password.getText().isEmpty()) {
             Alerts.showErrorAlert("Error", "Wrong Cred.", "Empty username or password!");
+            return;
         }
         System.out.println("Searching for username....");
         LoginSocket.os.writeByte(SEARCH_USERNAME);

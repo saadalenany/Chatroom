@@ -1,5 +1,6 @@
 package com.saad.chatclient.controller;
 
+import com.saad.chatclient.ref;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Label;
@@ -9,6 +10,7 @@ import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 
@@ -21,11 +23,11 @@ class GadgetProvider {
         messageBox.setBackground(new Background(new BackgroundFill(Color.GREY, CornerRadii.EMPTY, Insets.EMPTY)));
         messageBox.setFillWidth(true);
         messageBox.setPrefWidth(Double.MAX_VALUE);
-        messageBox.setStyle("-fx-border-radius: 5 5 5 5;-fx-background-radius: 5 5 5 5;-fx-background-radius: 5px;-fx-border-color: " + color + ";");
+        messageBox.setStyle("-fx-border-radius: 5 5 5 5;-fx-background-radius: 5 5 5 5;-fx-background-radius: 5px;-fx-background-color: " + color + ";");
 
-        messageBox.getChildren().add(createLabel(username, pos, 15, color, true));
-        messageBox.getChildren().add(createText(content, color));
-        messageBox.getChildren().add(createLabel(date, pos, 12, "#808080", false));
+        messageBox.getChildren().add(createLabel(username, pos, 16, ref.WhiteColor, true));
+        messageBox.getChildren().add(createText(content, ref.WhiteColor));
+        messageBox.getChildren().add(createLabel(date, pos, 14, ref.WhiteColor, false));
         return messageBox;
     }
 
@@ -43,7 +45,7 @@ class GadgetProvider {
     private Text createText(String text, String color) {
         Text textLabel = new Text(text);
         textLabel.setTextAlignment(TextAlignment.CENTER);
-        textLabel.setFont(new Font("Arial", 16));
+        textLabel.setFont(Font.font("Arial", FontWeight.MEDIUM, 18));
         textLabel.setFill(Color.web(color));
         textLabel.setWrappingWidth(300);
         return textLabel;

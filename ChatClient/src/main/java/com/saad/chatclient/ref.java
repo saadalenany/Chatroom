@@ -17,4 +17,6 @@ public class ref {
     public static final String BlueColor = "#0377a3";
 
     public static final String BlackColor = "#000000";
+
+    public static final String WhiteColor = "#ffffff";
 }
